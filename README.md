@@ -5,7 +5,7 @@ Ejercicio enfocado a practica de DOM usando POO y Web-Storage.
 ## Autor
 - Dario Mariño Ferrada
 
-
+![agenda](https://user-images.githubusercontent.com/44214019/88447449-ae3b5780-ce33-11ea-87ac-1096689d2376.jpg)
 
 ## Caracteristicas del proyecto
 - Compilar               => npm run build
