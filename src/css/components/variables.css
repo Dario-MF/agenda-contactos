@@ -1,0 +1,28 @@
+
+/*Variables css*/
+
+:root{
+    --fontTitle: 'Roboto', Arial, Verdana;
+    --fontText : Arial, Verdana, Helvetica;
+
+    --fontSizeBig : 2em;
+    --fontSizeMedium: 1.5em;
+    --fontSizeSmoll : 1em;
+
+    --fontColor1:black;
+    --fontColor2:white;
+
+    --colorPrimario : #f7f8f9;
+    --colorSegundario: #5d80b6;
+    --colorTerciario:#004581;
+    --colorCuaternario:#29bffa;
+    --colorDark:#cecdcd;
+    --colorDark2:#a09e9e;
+
+}
+
+@font-face{
+    font-family: 'Roboto';
+    src: url(../../fonts/Roboto-Regular.ttf);
+}
+

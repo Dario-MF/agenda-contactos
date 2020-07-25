@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contactos</title>
+
+</head>
+
+<body>
+    <div class="layout-app">
+        <header class="header">
+            <h1 class="title">Agenda de contactos</h1>
+        </header>
+        <div class="layout-agenda">
+            <div class="navigation">
+                <ul class="list-navigation">
+                    <li>
+                        <div title="Agenda" class="button icon-agenda" id="buttonAgenda"></div>
+                    </li>
+                    <li>
+                        <div title="Nuevo contacto" class="button icon-new-Contact" id="buttonNewContact"></div>
+                    </li>
+                    <li>
+                        <div title="Buscar" class="button icon-search-pointer" id="buttonSearchPointer"></div>
+                    </li>
+                </ul>
+            </div>
+            <article class="agenda">
+                <div class="search-bar" id="searchBar">
+                    <label class="search-bar-border" for="search">
+                        <input type="text" name="search" placeholder="Buscar" class="search-input" id="searchInput">
+                        <div class="button-search" id="buttonSearch"></div>
+                    </label>
+                </div>
+                <div class="new-contact" id="newContact">
+                    <div class="new-contact-form">
+                        <h3 class="new-contact-title">Nuevo contacto</h3>
+                        <div class="new-contact-img" id="newContactImg"></div>
+
+                        <label for="text-name">Nombre</label>
+                        <input type="text" name="text-name" id="newContactName" class="new-contact-name input">
+                        <label for="number-tel">Télefono</label>
+                        <input type="text" name="number-tel" id="newContactTel" class="new-contact-tel input">
+                        <label for="email">Correo electrónico</label>
+                        <input type="text" name="email" id="newContactEmail" class="new-contact-email input">
+                        <label for="url-img">Url imagén contacto</label>
+                        <input type="text" name="url-img" id="newImg" class=" input">
+                    </div>
+                    <div class="new-contact-buttons">
+                        <div class="new-contact-button button-close" id="buttonClose">Cerrar</div>
+                        <div class="new-contact-button button-input" id="buttonInput">Enviar</div>
+                        <div class="new-contact-button button-edit" id="buttonEdit">Editar</div>
+                    </div>
+                </div>
+
+                <div class="agenda-box" id="agendaBox">
+                    <div class="agenda-header">
+                        <h3>Nombre</h3>
+                    </div>
+                    <ul class="agenda-list" id="agendaList">
+                        <li class="agenda-index" id="agendaIndexA" tabindex="0">
+                            <h3 class="title-contact-list">A</h3>
+                            <ul class="agenda-contacts" id="agendaContactsA"></ul>
+                        </li>
+                        <li class="agenda-index" id="agendaIndexB">
+                            <h3 class="title-contact-list">B</h3>
+                            <ul class="agenda-contacts" id="agendaContactsB"></ul>
+                        </li>
+                        <li class="agenda-index" id="agendaIndexC">
+                            <h3 class="title-contact-list">C</h3>
+                            <ul class="agenda-contacts" id="agendaContactsC"></ul>
+                        </li>
+                        <li class="agenda-index" id="agendaIndexD">
+                            <h3 class="title-contact-list">D</h3>
+                            <ul class="agenda-contacts" id="agendaContactsD"></ul>
+                        </li>
+                        <li class="agenda-index" id="agendaIndexE">
+                            <h3 class="title-contact-list">E</h3>
+                            <ul class="agenda-contacts" id="agendaContactsE"></ul>
+                        </li>
+                        <li class="agenda-index" id="agendaIndexF">
+                            <h3 class="title-contact-list">F</h3>
+                            <ul class="agenda-contacts" id="agendaContactsF"></ul>
+                        </li>
+                        <li class="agenda-index" id="agendaIndexG">
+                            <h3 class="title-contact-list">G</h3>
+                            <ul class="agenda-contacts" id="agendaContactsG"></ul>
+                        </li>
+                        <li class="agenda-index" id="agendaIndexH">
+                            <h3 class="title-contact-list">H</h3>
+                            <ul class="agenda-contacts" id="agendaContactsH"></ul>
+                        </li>
+                        <li class="agenda-index" id="agendaIndexI">
+                            <h3 class="title-contact-list">I</h3>
+                            <ul class="agenda-contacts" id="agendaContactsI"></ul>
+                        </li>
+                        <li class="agenda-index" id="agendaIndexJ">
+                            <h3 class="title-contact-list">J</h3>
+                            <ul class="agenda-contacts" id="agendaContactsJ"></ul>
+                        </li>
+                        <li class="agenda-index" id="agendaIndexK">
+                            <h3 class="title-contact-list">K</h3>
+                            <ul class="agenda-contacts" id="agendaContactsK"></ul>
+                        </li>
+                        <li class="agenda-index" id="agendaIndexL">
+                            <h3 class="title-contact-list">L</h3>
+                            <ul class="agenda-contacts" id="agendaContactsL"></ul>
+                        </li>
+                        <li class="agenda-index" id="agendaIndexM">
+                            <h3 class="title-contact-list">M</h3>
+                            <ul class="agenda-contacts" id="agendaContactsM"></ul>
+                        </li>
+                        <li class="agenda-index" id="agendaIndexN">
+                            <h3 class="title-contact-list">N</h3>
+                            <ul class="agenda-contacts" id="agendaContactsN"></ul>
+                        </li>
+                        <li class="agenda-index" id="agendaIndexÑ">
+                            <h3 class="title-contact-list">Ñ</h3>
+                            <ul class="agenda-contacts" id="agendaContactsÑ"></ul>
+                        </li>
+                        <li class="agenda-index" id="agendaIndexO">
+                            <h3 class="title-contact-list">O</h3>
+                            <ul class="agenda-contacts" id="agendaContactsO"></ul>
+                        </li>
+                        <li class="agenda-index" id="agendaIndexP">
+                            <h3 class="title-contact-list">P</h3>
+                            <ul class="agenda-contacts" id="agendaContactsP"></ul>
+                        </li>
+                        <li class="agenda-index" id="agendaIndexQ">
+                            <h3 class="title-contact-list">Q</h3>
+                            <ul class="agenda-contacts" id="agendaContactsQ"></ul>
+                        </li>
+                        <li class="agenda-index" id="agendaIndexR">
+                            <h3 class="title-contact-list">R</h3>
+                            <ul class="agenda-contacts" id="agendaContactsR"></ul>
+                        </li>
+                        <li class="agenda-index" id="agendaIndexS">
+                            <h3 class="title-contact-list">S</h3>
+                            <ul class="agenda-contacts" id="agendaContactsS"></ul>
+                        </li>
+                        <li class="agenda-index" id="agendaIndexT">
+                            <h3 class="title-contact-list">T</h3>
+                            <ul class="agenda-contacts" id="agendaContactsT"></ul>
+                        </li>
+                        <li class="agenda-index" id="agendaIndexU">
+                            <h3 class="title-contact-list">U</h3>
+                            <ul class="agenda-contacts" id="agendaContactsU"></ul>
+                        </li>
+                        <li class="agenda-index" id="agendaIndexV">
+                            <h3 class="title-contact-list">V</h3>
+                            <ul class="agenda-contacts" id="agendaContactsV"></ul>
+                        </li>
+                        <li class="agenda-index" id="agendaIndexW">
+                            <h3 class="title-contact-list">W</h3>
+                            <ul class="agenda-contacts" id="agendaContactsW"></ul>
+                        </li>
+                        <li class="agenda-index" id="agendaIndexX">
+                            <h3 class="title-contact-list">X</h3>
+                            <ul class="agenda-contacts" id="agendaContactsX"></ul>
+                        </li>
+                        <li class="agenda-index" id="agendaIndexY">
+                            <h3 class="title-contact-list">Y</h3>
+                            <ul class="agenda-contacts" id="agendaContactsY"></ul>
+                        </li>
+                        <li class="agenda-index" id="agendaIndexZ">
+                            <h3 class="title-contact-list">Z</h3>
+                            <ul class="agenda-contacts" id="agendaContactsZ"></ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </article>
+
+            <aside class="info" id="info">
+                <div class="info-box" id="infoBox">
+                    <div class="info-header">
+                        <div class="info-img" id="infoImg"></div>
+                        <h3 class="info-name" id="infoName"></h3>
+                        <div class="info-buttons-box">
+                            <div title="Editar contacto" class="info-button edit" id="button-edit"></div>
+                            <div title="Borrar contacto" class="info-button delete" id="button-delete"></div>
+                        </div>
+                    </div>
+
+                    <div class="info-contacto">
+                        <h3>Contacto</h3>
+                        <div class="info-tel">
+                            <p>Télefono</p>
+                            <p id="infoTel"></p>
+                        </div>
+                        <div class="info-email">
+                            <p>Correo electrónico</p>
+                            <p id="infoEmail"></p>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

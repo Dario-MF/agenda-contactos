@@ -1,0 +1,30 @@
+.list-navigation li{
+    padding: 1.5em 0;
+}
+
+.list-navigation li:hover{
+    background-color:var(--colorTerciario);   
+}
+
+.button{
+    width: 30px;
+    height: 30px;
+    margin:0 auto ;
+    cursor: pointer; 
+    filter:brightness(2); 
+    transition: .4s;   
+}
+
+
+.icon-search-pointer{
+    background-image: url(../../img/buscar.png);
+    background-size: cover;
+}
+.icon-new-Contact{
+    background-image: url(../../img/anadir.png);
+    background-size: cover;
+}
+.icon-agenda{
+    background-image: url(../../img/usuario.png);
+    background-size: cover;
+}

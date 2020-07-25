@@ -1,0 +1,84 @@
+
+
+.agenda-box{
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+}
+.agenda-header{
+  padding: 0 2em;
+}
+
+.agenda-list{
+    width: 100%;
+    margin: 1em 2em 0 0;
+    overflow: auto;
+}
+.agenda-index{
+  outline: none;
+}
+
+.title-contact-list{
+   
+    padding: 0 2.4em;
+}
+
+.contact{
+    width: 100%;
+    height: 4em;
+    padding-left: 2em;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.contact:hover{
+    color: var(--fontColor2);
+    background-color: var(--colorSegundario);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.contact-img{
+    width: 40px;
+    height: 40px;
+    margin-right: 1em;
+    border-radius: 50%;
+    border: 1px solid var(--colorSegundario);
+    background-image: url(../../img/img-default.jpg);
+    background-size: cover;
+
+}
+
+
+.agenda-list::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+
+.agenda-list::-webkit-scrollbar-thumb {
+  background:var(--colorSegundario);
+  border-radius: 4px;
+}
+
+.agenda-list::-webkit-scrollbar-thumb:active {
+  background-color:var(--colorSegundario);
+}
+
+.agenda-list::-webkit-scrollbar-thumb:hover {
+  background: var(--colorSegundario);
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.agenda-list::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border-radius: 4px;
+}
+
+.agenda-list::-webkit-scrollbar-track:hover, 
+.agenda-list::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+}
+

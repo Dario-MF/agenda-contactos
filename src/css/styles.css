@@ -1,0 +1,9 @@
+@import 'components/variables.css';
+@import 'components/base.css';
+@import 'components/layout.css';
+@import 'components/header.css';
+@import 'components/buttons-nav.css';
+@import 'components/search-bar.css';
+@import 'components/agenda-box.css';
+@import 'components/new-contact.css';
+@import 'components/info.css';

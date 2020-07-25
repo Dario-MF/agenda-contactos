@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--colorTerciario);
+}
+.title{
+    margin: 0;
+    margin-left: 1em;
+    padding: 0;
+    font-family: var(--fontTitle);
+    font-size: var(--fontSizeMedium);
+    font-weight: 400;
+    color: var(--fontColor2);
+    
+}
